@@ -1,0 +1,26 @@
+{
+  "name": "mongochat",
+  "version": "1.0.0",
+  "description": "Simple chat app using sockets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^2.2.36",
+    "mongoose": "^5.11.8",
+    "nodemon": "^2.0.6",
+    "socket.io": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradtraversy/mongochat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bradtraversy/mongochat/issues"
+  },
+  "homepage": "https://github.com/bradtraversy/mongochat#readme"
+}
